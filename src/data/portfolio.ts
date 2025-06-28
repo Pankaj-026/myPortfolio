@@ -190,8 +190,8 @@ export const projects = [
       "Scroll Reveal",
       "Dark Mode",
     ],
-    liveUrl: "https://sp-christmas.netlify.app/",
-    githubUrl: "https://github.com/Pankaj-026/SP-Christmas",
+    liveUrl: "https://sp-book.netlify.app/",
+    githubUrl: "https://github.com/Pankaj-026/SP-Book",
     featured: false,
   },
 ];
