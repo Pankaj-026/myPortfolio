@@ -23,9 +23,9 @@ const Hero: React.FC = () => {
   };
 
   return (
-    <section id="home" className="min-h-screen flex items-center justify-center px-6 pt-20 relative overflow-hidden">
+    <section id="home" className="min-h-screen flex items-center justify-center px-6 pt-30 relative overflow-hidden">
       <div className="max-w-7xl mx-auto w-full">
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
+        <div className="grid lg:grid-cols-2 gap-12 items-center py-20">
           {/* Left Content */}
           <motion.div
             initial={{ opacity: 0, x: -50 }}

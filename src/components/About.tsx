@@ -70,7 +70,7 @@ const About: React.FC = () => {
             </div>
 
             <div className="flex flex-wrap gap-3">
-              {['React', 'Next.js', 'TypeScript', 'Tailwind CSS', 'Node.js', 'MongoDB', 'Express.js', 'JavaScript'].map((tech) => (
+              {['React', 'Next.js', 'JavaScript', 'Redux','Tailwind CSS', 'Node.js', 'MongoDB', 'Express.js','Strapi' ].map((tech) => (
                 <motion.span
                   key={tech}
                   className="px-4 py-2 bg-gradient-to-r from-purple-500/10 to-blue-500/10 border border-purple-500/20 rounded-xl text-sm font-medium"

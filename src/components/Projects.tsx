@@ -36,7 +36,7 @@ const Projects: React.FC = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8, delay: 0.2 }}
-          className="flex justify-center gap-4 mb-12"
+          className="flex flex-wrap justify-center gap-4 mb-12"
         >
           {[
             { id: 'all', label: 'All Projects', icon: '🚀' },
@@ -46,7 +46,7 @@ const Projects: React.FC = () => {
             <motion.button
               key={filterOption.id}
               onClick={() => setFilter(filterOption.id)}
-              className={`flex items-center gap-2 px-6 py-3 rounded-2xl font-medium transition-all duration-300 ${filter === filterOption.id
+              className={`flex items-center gap-2 px-6 py-3 rounded-2xl font-medium transition-all duration-300 w-full sm:w-auto justify-center ${filter === filterOption.id
                   ? 'bg-gradient-to-r from-purple-500 to-blue-600 text-white shadow-lg shadow-purple-500/25'
                   : 'bg-gray-800/50 text-gray-400 hover:bg-gray-700/50 hover:text-white'
                 }`}

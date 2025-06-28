@@ -66,7 +66,7 @@ export const projects = [
       "Prop Harmony is a role-based real estate dashboard enabling landlords, tenants, and managers to manage properties, payments, and notices via clean, modular UI.",
     image:
       "https://tasunited.com/wp-content/uploads/2024/05/Best-Property-Management-Accounting-Software-for-Landlords.jpg",
-    technologies: ["React.js", "Redux",  "Tailwind CSS", "ShadCN", "Recharts"],
+    technologies: ["React.js", "Redux", "Tailwind CSS", "ShadCN", "Recharts"],
     liveUrl: "https://prop-harmony-seven.vercel.app/",
     githubUrl: "",
     featured: true,
@@ -108,8 +108,15 @@ export const projects = [
       "Analytics dashboard for social media management with data visualization, scheduling tools, engagement metrics, and multi-platform integration.",
     image:
       "https://img.freepik.com/free-photo/people-taking-photos-food_23-2149303524.jpg?semt=ais_hybrid&w=740",
-    technologies: ["React Native", "Node.js", "Express", "MongoDB", "Tailwind CSS"],
-    liveUrl: "https://drive.google.com/file/d/1ThsSdFfdae1nAKHJGpTNfbxnDK8e_YkY/view",
+    technologies: [
+      "React Native",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Tailwind CSS",
+    ],
+    liveUrl:
+      "https://drive.google.com/file/d/1ThsSdFfdae1nAKHJGpTNfbxnDK8e_YkY/view",
     githubUrl: "https://github.com/Pankaj-026/DineSpace",
     featured: true,
   },
@@ -120,7 +127,14 @@ export const projects = [
       "A role-based Form Management SaaS to build, manage, and analyze forms on websites with dynamic form builder, secure backend, and real-time analytics.",
     image:
       "https://images.unsplash.com/photo-1625535069654-cfeb8f829088?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8dmlzdWFsJTIwc3R1ZGlvJTIwY29kZXxlbnwwfHwwfHx8MA%3D%3D",
-    technologies: ["React.js", "Redux", "MaterialUI", "Tailwind CSS", "Recharts", "Zod"],
+    technologies: [
+      "React.js",
+      "Redux",
+      "MaterialUI",
+      "Tailwind CSS",
+      "Recharts",
+      "Zod",
+    ],
     liveUrl: "https://fluentform.nipralo.com/auth/login",
     githubUrl: "",
     featured: true,
@@ -132,7 +146,13 @@ export const projects = [
       "A video streaming platform UI to explore, watch, and manage entertainment content with smooth playback and personalized recommendations.",
     image:
       "https://thumb.photo-ac.com/31/311d1ecff97f4030087a3ab708a184ea_t.jpeg",
-    technologies: ["React.js", "Redux", "Firebase", "React Router", "Tailwind CSS", ""],
+    technologies: [
+      "React.js",
+      "Redux",
+      "Firebase",
+      "React Router",
+      "Tailwind CSS",
+    ],
     liveUrl: "https://spvision-9fbf3.web.app/home",
     githubUrl: "https://github.com/Pankaj-026/SP-Vision",
     featured: false,
@@ -144,7 +164,14 @@ export const projects = [
       "A video streaming platform UI to explore, watch, and manage entertainment content with smooth playback and personalized recommendations.",
     image:
       "https://res.cloudinary.com/drwy0czge/image/upload/v1743598368/Screenshot_2025-04-02_182232_rwo8to.png",
-    technologies: ["HTML5", "CSS3", "JavaScript", "GSAP", "Scroll Reveal", "rellax"],
+    technologies: [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "GSAP",
+      "Scroll Reveal",
+      "rellax",
+    ],
     liveUrl: "https://sp-christmas.netlify.app/",
     githubUrl: "https://github.com/Pankaj-026/SP-Christmas",
     featured: false,
@@ -154,9 +181,15 @@ export const projects = [
     title: "SP Books",
     description:
       "A video streaming platform UI to explore, watch, and manage entertainment content with smooth playback and personalized recommendations.",
-    image:
-      "https://kitaboo.com/wp-content/uploads/2022/10/ebook-store.jpg",
-    technologies: ["HTML5", "CSS3", "JavaScript", "GSAP", "Scroll Reveal","Dark Mode"],
+    image: "https://kitaboo.com/wp-content/uploads/2022/10/ebook-store.jpg",
+    technologies: [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "GSAP",
+      "Scroll Reveal",
+      "Dark Mode",
+    ],
     liveUrl: "https://sp-christmas.netlify.app/",
     githubUrl: "https://github.com/Pankaj-026/SP-Christmas",
     featured: false,
@@ -181,8 +214,12 @@ export const experiences = [
     technologies: [
       "React.js",
       "Next.js",
+      "Strapi",
       "Tailwind CSS",
       "JavaScript",
+      "ShadCn",
+      "MaterialUi",
+      "Wordpress",
       "REST APIs",
       "Git",
     ],
