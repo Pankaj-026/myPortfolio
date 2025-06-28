@@ -41,7 +41,7 @@ const About: React.FC = () => {
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
             About <span className="bg-gradient-to-r from-purple-400 to-blue-400 bg-clip-text text-transparent">Me</span>
           </h2>
-          <p className="text-xl text-gray-600 dark:text-gray-400 max-w-3xl mx-auto">
+          <p className="text-xl text-gray-400 dark:text-gray-400 max-w-3xl mx-auto">
             Fueled by curiosity and creativity, I bring interfaces to life that aren't just functional, but delightful
           </p>
         </motion.div>
@@ -56,15 +56,15 @@ const About: React.FC = () => {
             className="space-y-6"
           >
             <div className="space-y-6">
-              <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
+              <p className="text-lg text-gray-300 dark:text-gray-300 leading-relaxed">
                 I am Pankaj Gupta, an aspiring Software Engineer passionate about creating intuitive and efficient digital solutions. I specialize in React, JavaScript, and modern web technologies. I thrive on solving complex problems and turning ideas into reality through code.
               </p>
               
-              <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
+              <p className="text-lg text-gray-300 dark:text-gray-300 leading-relaxed">
                 My journey into software development started with a deep curiosity for how things work on the web. Over time, I honed my skills in frontend development with React.js, while expanding my backend expertise in Node.js, Express, and MongoDB.
               </p>
 
-              <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
+              <p className="text-lg text-gray-300 dark:text-gray-300 leading-relaxed">
                 Beyond coding, I've led college initiatives like DLLE and PR management for inter-college fests, developing essential skills in communication, teamwork, and project management. When I'm not coding, you can find me reading tech blogs, playing chess or basketball, and exploring new technologies.
               </p>
             </div>
@@ -127,7 +127,7 @@ const About: React.FC = () => {
               <GraduationCap className="text-purple-400" />
               Education
             </h3>
-            <p className="text-gray-600 dark:text-gray-400">My academic journey and achievements</p>
+            <p className="text-gray-400 dark:text-gray-400">My academic journey and achievements</p>
           </div>
 
           <div className="grid md:grid-cols-2 gap-8">

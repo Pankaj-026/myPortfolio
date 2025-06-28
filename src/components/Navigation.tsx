@@ -81,12 +81,17 @@ const Navigation: React.FC<NavigationProps> = ({ activeSection }) => {
   }, []);
 
   const scrollToSection = (sectionId: string) => {
-    const element = document.getElementById(sectionId);
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
-    }
+  const element = document.getElementById(sectionId);
+  if (element) {
+    // First close the menu (for mobile)
     setIsMenuOpen(false);
-  };
+    
+    // Then scroll to the section after a tiny delay to allow the menu to start closing
+    setTimeout(() => {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }, 100);
+  }
+};
   const [hovered, setHovered] = useState<number | null>(null);
 
 

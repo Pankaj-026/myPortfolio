@@ -35,7 +35,7 @@ const Footer: React.FC = () => {
   };
 
   return (
-    <footer className="relative py-16 px-6 border-t border-gray-800/50 bg-black/50">
+    <footer className="relative pt-16 pb-10 md:pb-5 px-6 border-t border-gray-800/50 bg-black/50">
       <div className="max-w-7xl mx-auto">
         <div className="grid md:grid-cols-4 gap-8 mb-12">
           {/* Brand Section */}
@@ -138,9 +138,11 @@ const Footer: React.FC = () => {
             transition={{ duration: 0.8 }}
             className="flex items-center gap-2 text-gray-400 text-sm"
           >
-            <span>© {currentYear} {personalInfo.name}. Made with</span>
-            <Heart size={16} className="text-red-400 fill-current animate-pulse" />
+            <span className='flex gap-0.5'>© {currentYear} {personalInfo.name}. Made with
+
+            <Heart size={16} className="text-red-400 mt-1 fill-current animate-pulse" />
             <span>and lots of ☕</span>
+            </span>
           </motion.div>
 
           {/* Back to Top */}
@@ -160,7 +162,7 @@ const Footer: React.FC = () => {
         </div>
 
         {/* Fun Message */}
-        <motion.div
+        {/* <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
@@ -170,7 +172,7 @@ const Footer: React.FC = () => {
           <p className="text-sm text-gray-500">
             Thanks for visiting! Let's turn your ideas into reality 🚀
           </p>
-        </motion.div>
+        </motion.div> */}
       </div>
     </footer>
   );
