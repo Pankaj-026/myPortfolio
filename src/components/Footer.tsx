@@ -136,12 +136,12 @@ const Footer: React.FC = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
-            className="flex items-center gap-2 text-gray-400 text-sm"
+            className="flex items-center gap-2 text-gray-400 text-xs md:text-sm"
           >
             <span className='flex gap-0.5'>© {currentYear} {personalInfo.name}. Made with
 
-            <Heart size={16} className="text-red-400 mt-1 fill-current animate-pulse" />
-            <span>and lots of ☕</span>
+            <Heart size={17} className="text-red-400 ml-0.5 fill-current animate-pulse" />
+            {/* <span>and lots of ☕</span> */}
             </span>
           </motion.div>
 

@@ -191,7 +191,7 @@ export const projects = [
       "Dark Mode",
     ],
     liveUrl: "https://sp-book.netlify.app/",
-    githubUrl: "https://github.com/Pankaj-026/SP-Book",
+    githubUrl: "https://github.com/Pankaj-026/SP-Booka",
     featured: false,
   },
 ];

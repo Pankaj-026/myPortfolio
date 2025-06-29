@@ -99,7 +99,7 @@ const Contact: React.FC = () => {
   };
 
   return (
-    <section id="contact" className="py-20 px-6 bg-gray-50/5 dark:bg-white/5">
+    <section id="contact" className="py-20 px-2 md:px-6 bg-gray-50/5 dark:bg-white/5">
       <div className="max-w-7xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 50 }}
@@ -116,7 +116,7 @@ const Contact: React.FC = () => {
           </p>
         </motion.div>
 
-        <div className="grid lg:grid-cols-2 gap-16">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16">
           {/* Contact Information */}
           <motion.div
             initial={{ opacity: 0, x: -50 }}
@@ -147,12 +147,12 @@ const Contact: React.FC = () => {
                 >
                   <GlowingCard className="p-1  duration-200">
                     <div className="flex items-center gap-4 p-4">
-                      <div className={`p-3 bg-gradient-to-br from-gray-800 to-gray-700 rounded-xl ${info.color}`}>
+                      <div className={`p-3  bg-gradient-to-br from-gray-800 to-gray-700 rounded-xl ${info.color}`}>
                         <info.icon size={24} />
                       </div>
                       <div>
                         <p className="text-sm text-gray-400 mb-1">{info.label}</p>
-                        <p className="text-lg font-medium text-white">{info.value}</p>
+                        <p className="text-sm md:text-lg font-medium text-white">{info.value}</p>
                       </div>
                     </div>
                   </GlowingCard>
@@ -196,7 +196,7 @@ const Contact: React.FC = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
             className='self-center'
           >
-            <GlowingCard className="p-1">
+            <GlowingCard className="p-1 w-full max-w-lg mx-auto">
               {isSubmitted ? (
                 <motion.div
                   initial={{ opacity: 0, scale: 0.8 }}
@@ -208,7 +208,7 @@ const Contact: React.FC = () => {
                   <p className="text-gray-400">Thank you for reaching out. I'll get back to you soon!</p>
                 </motion.div>
               ) : (
-                <form onSubmit={handleSubmit} className="space-y-6 px-7 py-10">
+                <form onSubmit={handleSubmit} className="space-y-6 px-4 py-8 sm:px-7 sm:py-10 w-full">
                   <div className="grid md:grid-cols-2 gap-6">
                     <div>
                       <label htmlFor="name" className="block text-sm font-medium mb-2 text-gray-300">
