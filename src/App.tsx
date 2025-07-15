@@ -10,6 +10,7 @@ import Experience from './components/Experience';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import AnimatedBackground from './components/ui/AnimatedBackground';
+import { SmoothCursor } from './components/ui/SmoothCursor';
 
 function App() {
   const [activeSection, setActiveSection] = useState('home');
@@ -39,6 +40,7 @@ function App() {
   return (
     <ThemeProvider>
       <div className="relative min-h-screen bg-black dark:bg-gray-900 text-white overflow-x-hidden">
+        <SmoothCursor />
         <AnimatedBackground />
         
         <Navigation activeSection={activeSection} />
